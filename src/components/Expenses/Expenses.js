@@ -1,5 +1,6 @@
 import ExpenseItem from "./ExpenseItem";
 import Card from "../UI/Card";
+import './ExpensesFilter'
 import "./Expenses.css";
 
 const Expenses =(props) => {
