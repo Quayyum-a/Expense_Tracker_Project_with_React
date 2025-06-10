@@ -31,7 +31,7 @@ function App() {
 
   const addExpenseHanler = expense =>{
     console.log('in App.js');
-    console.log(expenses);
+    console.log(expense);
   }
   return (
     <div>
