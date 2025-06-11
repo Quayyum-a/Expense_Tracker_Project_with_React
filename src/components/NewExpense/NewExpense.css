@@ -1,5 +1,5 @@
 .new-expense {
-  background: linear-gradient(135deg, #a892ee 60%, #7209b7 100%);
+  background: linear-gradient(135deg, #43cea2 60%, #185a9d 100%);
   padding: 1.5rem 1rem;
   margin: 2.5rem auto 2rem auto;
   width: 48rem;
@@ -13,8 +13,8 @@
   font: inherit;
   cursor: pointer;
   padding: 1rem 2.2rem;
-  border: 1.5px solid #40005d;
-  background: linear-gradient(90deg, #40005d 60%, #7209b7 100%);
+  border: 1.5px solid #185a9d;
+  background: linear-gradient(90deg, #185a9d 60%, #43cea2 100%);
   color: #fff;
   border-radius: 12px;
   margin-right: 1rem;
@@ -25,9 +25,9 @@
 
 .new-expense button:hover,
 .new-expense button:active {
-  background: linear-gradient(90deg, #7209b7 60%, #40005d 100%);
-  border-color: #7209b7;
-  color: #ddb3f8;
+  background: linear-gradient(90deg, #43cea2 60%, #185a9d 100%);
+  border-color: #43cea2;
+  color: #fff;
 }
 
 .new-expense button.alternative {
@@ -38,6 +38,6 @@
 
 .new-expense button.alternative:hover,
 .new-expense button.alternative:active {
-  background: #ddb3f8;
-  color: #40005d;
+  background: #e0f7fa;
+  color: #185a9d;
 }

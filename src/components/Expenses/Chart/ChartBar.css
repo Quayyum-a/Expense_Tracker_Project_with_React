@@ -10,9 +10,9 @@
 .chart-bar__inner {
   height: 100%;
   width: 100%;
-  border: 1.5px solid #7209b7;
+  border: 1.5px solid #43cea2;
   border-radius: 10px;
-  background: #e0aaff;
+  background: #e0f7fa;
   overflow: hidden;
   display: flex;
   flex-direction: column;
@@ -21,7 +21,7 @@
 }
 
 .chart-bar__fill {
-  background: linear-gradient(180deg, #7209b7 0%, #b197fc 100%);
+  background: linear-gradient(180deg, #185a9d 0%, #43cea2 100%);
   width: 100%;
   transition: all 0.3s cubic-bezier(0.4, 2, 0.6, 1);
   border-radius: 0 0 10px 10px;
@@ -31,6 +31,6 @@
   font-weight: bold;
   font-size: 0.7rem;
   text-align: center;
-  color: #3a0ca3;
+  color: #185a9d;
   margin-top: 0.3rem;
 }
