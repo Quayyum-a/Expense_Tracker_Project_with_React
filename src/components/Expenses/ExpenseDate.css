@@ -3,24 +3,35 @@
   flex-direction: column;
   width: 5.5rem;
   height: 5.5rem;
-  border: 1px solid #ececec;
-  background-color: #2a2a2a;
-  color: white;
-  border-radius: 12px;
+  border: 2px solid #a892ee;
+  background: linear-gradient(135deg, #5a189a 0%, #2a2a2a 100%);
+  color: #fff;
+  border-radius: 14px;
   align-items: center;
   justify-content: center;
+  box-shadow: 0 2px 8px rgba(90, 24, 154, 0.1);
+  margin-right: 1.2rem;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.expense-date:hover {
+  border: 2px solid #7209b7;
+  box-shadow: 0 4px 16px rgba(90, 24, 154, 0.18);
 }
 
 .expense-date__month {
-  font-size: 0.75rem;
+  font-size: 0.85rem;
   font-weight: bold;
+  color: #ddb3f8;
 }
 
 .expense-date__year {
   font-size: 0.75rem;
+  color: #b197fc;
 }
 
 .expense-date__day {
-  font-size: 1.5rem;
+  font-size: 1.7rem;
   font-weight: bold;
+  color: #fff;
 }
