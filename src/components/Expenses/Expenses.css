@@ -1,6 +1,5 @@
 .expenses {
   padding: 2rem 1.5rem;
-  /* Replace purple/gray gradient with a blue-green-teal gradient */
   background: linear-gradient(135deg, #232526 0%, #43cea2 60%, #185a9d 100%);
   margin: 2.5rem auto;
   width: 48rem;
