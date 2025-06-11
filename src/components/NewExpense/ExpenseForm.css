@@ -1,26 +1,37 @@
 .new-expense__controls {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
-  margin-bottom: 1rem;
+  gap: 1.2rem;
+  margin-bottom: 1.2rem;
   text-align: left;
+  justify-content: center;
 }
 
 .new-expense__control label {
   font-weight: bold;
   margin-bottom: 0.5rem;
   display: block;
+  color: #7209b7;
+  letter-spacing: 0.5px;
 }
 
 .new-expense__control input {
   font: inherit;
-  padding: 0.5rem;
-  border-radius: 6px;
-  border: 1px solid #ccc;
-  width: 20rem;
+  padding: 0.7rem 1rem;
+  border-radius: 8px;
+  border: 1.5px solid #a892ee;
+  width: 18rem;
   max-width: 100%;
+  background: #f8f0fc;
+  transition: border 0.2s, box-shadow 0.2s;
+}
+
+.new-expense__control input:focus {
+  border: 2px solid #7209b7;
+  box-shadow: 0 0 0 2px #b197fc44;
 }
 
 .new-expense__actions {
   text-align: right;
+  margin-top: 0.5rem;
 }

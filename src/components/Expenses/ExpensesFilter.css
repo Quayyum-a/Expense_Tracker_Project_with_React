@@ -10,16 +10,16 @@
   align-items: center;
   justify-content: space-between;
   margin: 1.2rem 0;
-  background: #3a0ca3;
+  background: #185a9d;
   border-radius: 10px;
   padding: 0.7rem 1.2rem;
-  box-shadow: 0 1px 6px rgba(58,12,163,0.08);
+  box-shadow: 0 1px 6px rgba(58, 12, 163, 0.08);
 }
 
 .expenses-filter label {
   font-weight: bold;
   margin-bottom: 0.5rem;
-  color: #ddb3f8;
+  color: #43cea2;
 }
 
 .expenses-filter select {
@@ -27,13 +27,13 @@
   padding: 0.5rem 2.5rem;
   font-weight: bold;
   border-radius: 8px;
-  border: 1px solid #a892ee;
+  border: 1px solid #43cea2;
   background: #fff;
-  color: #3a0ca3;
+  color: #185a9d;
   transition: border 0.2s, box-shadow 0.2s;
 }
 
 .expenses-filter select:focus {
-  border: 1.5px solid #7209b7;
-  box-shadow: 0 0 0 2px #b197fc44;
+  border: 1.5px solid #43cea2;
+  box-shadow: 0 0 0 2px #43cea244;
 }

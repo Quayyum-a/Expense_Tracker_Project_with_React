@@ -4,12 +4,10 @@
   align-items: center;
   padding: 1rem 1.5rem;
   margin: 1.2rem 0;
-  background: linear-gradient(90deg, #4b4b4b 60%, #5a189a 100%);
+  background: linear-gradient(90deg, #4b4b4b 60%, #43cea2 100%);
   border-radius: 14px;
   box-shadow: 0 2px 8px rgba(80, 0, 93, 0.12);
-  transition:
-    transform 0.15s,
-    box-shadow 0.2s;
+  transition: transform 0.15s, box-shadow 0.2s;
 }
 
 .expense-item:hover {
@@ -39,7 +37,7 @@
   font-size: 1.1rem;
   font-weight: bold;
   color: #fff;
-  background: linear-gradient(90deg, #40005d 60%, #7209b7 100%);
+  background: linear-gradient(90deg, #185a9d 60%, #43cea2 100%);
   border: none;
   padding: 0.6rem 1.2rem;
   border-radius: 10px;
@@ -48,7 +46,7 @@
 }
 
 .expense-item__price:hover {
-  background: linear-gradient(90deg, #7209b7 60%, #40005d 100%);
+  background: linear-gradient(90deg, #43cea2 60%, #185a9d 100%);
 }
 
 @media (min-width: 580px) {
